@@ -1,7 +1,7 @@
 # Site
-name: "Mediumish"
-title: "Mediumish"
-description: "Jekyll template, Medium styled, free for bloggers."
+name: "탐험가의 선물"
+title: "탐험가의 선물"
+description: "좋은 상품을 골라서 소개하는 블로그입니다."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: /blog
@@ -14,18 +14,18 @@ permalink: /:title/
 # Authors
 authors:
   john:
-    name: John
-    display_name: John    
+    name: hobby-explorer
+    display_name: hobby-explorer    
     avatar: 'assets/images/avatar.png'
     gravatar: b1cc14991db7a456fcd761680bbc8f81
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
+    email: 70935101+hobby-explorer@users.noreply.github.com
+    web: https://hobby-explorer.github.io/blog/
+    twitter: 
+    description: "고르기 힘든 물건을 찾아서, 모두에게 행복을 드리는 블로거입니다."
 
 # Plugins
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
@@ -40,7 +40,7 @@ jekyll-archives:
     category: '/category/:name/'
     
 # Pagination 
-paginate: 6
+paginate: 12
 paginate_path: /page:num/
     
 # Other
